@@ -1,0 +1,20 @@
+{
+  "name": "websocket-connect",
+  "homepage": "https://github.com/xorus/websocket-connect",
+  "authors": [
+    "Xorus <jdpepi@gmail.com>"
+  ],
+  "description": "",
+  "main": [
+    "WebSocket.js"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
