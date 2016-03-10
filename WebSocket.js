@@ -17,7 +17,7 @@
 function XorusWebSocket(listenerInstance, hostname, retryDelay, debug) {
     this.hostname = hostname;
     this.listenerInstance = listenerInstance;
-    this.retryDelay = 5000;
+    this.retryDelay = typeof retryDelay !== 'undefined' ? retryDelay : 5000;
     this.debug = typeof debug !== 'undefined' ? debug : false;
 }
 
